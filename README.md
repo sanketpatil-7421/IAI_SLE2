@@ -10,15 +10,9 @@ To implement and demonstrate BFS and DFS graph traversal algorithms using Python
 
 ## Graph Used
 
-```mermaid
-graph TD
-    A((A)) --- B((B))
-    A --- C((C))
-    B --- D((D))
-    B --- E((E))
-    C --- F((F))
-    C --- G((G))
-```
+The following graph is included in the repository as `graph.svg`.
+
+![BFS and DFS Graph](graph.svg)
 
 ### Adjacency representation
 ```text
@@ -65,7 +59,7 @@ A -> B -> D -> E -> C -> F -> G
 ## Files
 - `bfs_dfs.py` - Python implementation of BFS and DFS.
 - `CONTRIBUTION_LOG.md` - Contribution/work log.
-- `graph.png` - Graph visualization (if generated locally in Spyder).
+- `graph.svg` - BFS/DFS graph visualization.
 
 ## Conclusion
 BFS and DFS are fundamental graph traversal algorithms. BFS is useful for level-wise traversal and shortest paths in unweighted graphs, while DFS is useful for deep exploration, connected components, and cycle-related problems.
